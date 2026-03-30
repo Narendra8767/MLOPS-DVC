@@ -11,8 +11,8 @@ df = pd.DataFrame(data)
 new_row_loc = {'Name': 'Madhavi', 'Age': 20, 'City': 'Pune'}
 df.loc[len(df.index)] = new_row_loc
 
-# new_row_loc2 = {'Name': 'GF4', 'Age': 25, 'City': 'Mumbai'}
-# df.loc[len(df.index)] = new_row_loc2
+new_row_loc2 = {'Name': 'Bhagwat', 'Age': 25, 'City': 'Mumbai'}
+df.loc[len(df.index)] = new_row_loc2
 
 
 data_dir = 'data'
